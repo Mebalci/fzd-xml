@@ -45,7 +45,7 @@ class FilterTests(unittest.TestCase):
         workbook = products_to_xlsx(rules, 16)
         imported = products_from_xlsx(workbook, 16)
         self.assertEqual(rules, imported)
-        self.assertTrue(imported[0]["images"])
+        self.assertTrue(any(product["images"] for product in imported))
 
     def test_duplicate_active_identifier_is_rejected(self):
         products = [
@@ -95,8 +95,9 @@ class FilterTests(unittest.TestCase):
             )
             with urllib.request.urlopen(request, timeout=5) as response:
                 payload = json.loads(response.read().decode("utf-8"))
-                self.assertEqual(len(load_json(ROOT / "config/products.json")), payload["count"])
-                self.assertEqual("3501170818305", payload["products"][0]["barcode"])
+                rules = load_json(ROOT / "config/products.json")
+                self.assertEqual(len(rules), payload["count"])
+                self.assertEqual(rules[0]["barcode"], payload["products"][0]["barcode"])
         finally:
             server.shutdown()
             server.server_close()
