@@ -1,6 +1,222 @@
 [
   {
     "enabled": true,
+    "name": "Rotring Jel Kalem 0.7 MM Açık Mavi 2114451",
+    "source_id": "",
+    "code": "3200.30744",
+    "barcode": "3026981144516",
+    "producer_code": "Ro-2114451",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Rotring Jel Kalem 0.7 MM Kırmızı 2114438",
+    "source_id": "",
+    "code": "3200.3074",
+    "barcode": "3026981144387",
+    "producer_code": "Ro-2114438",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Rotring Jel Kalem 0.7 MM Siyah 2114436",
+    "source_id": "",
+    "code": "3200.30739",
+    "barcode": "3026981144363",
+    "producer_code": "Ro-2114438",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Rotring Jel Kalem 0.7 MM Mavi 2114437",
+    "source_id": "",
+    "code": "3200.30741",
+    "barcode": "3026981144370",
+    "producer_code": "Ro-2114437",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Sharpie Gel Jel Mürekkepli Kalem 0.7 MM Mavi 2136600",
+    "source_id": "",
+    "code": "3200.31037",
+    "barcode": "3026981366000",
+    "producer_code": "2136600",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Sharpie Jel Kalem Mürekkepli 0.7 MM Siyah 2136595",
+    "source_id": "",
+    "code": "3200.31038",
+    "barcode": "3026981365959",
+    "producer_code": "2136595",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Sharpie Jel Kalem Gel Mürekkepli 0.7 MM Kırmızı 2136599",
+    "source_id": "",
+    "code": "3200.31036",
+    "barcode": "3026981365997",
+    "producer_code": "2136599",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Uni-Ball Roller Kalem Signo 207 Jel Bilye Uç Mekanik 0.7 MM Kırmızı UMN-207",
+    "source_id": "",
+    "code": "3720.009",
+    "barcode": "4902778762653",
+    "producer_code": "Umn-207 Kırmızı",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Uni-Ball Roller Kalem Signo 207 Jel Bilye Uç Mekanik 0.7 MM Mavi UMN-207",
+    "source_id": "",
+    "code": "3720.00076",
+    "barcode": "4902778762646",
+    "producer_code": "Umn-207 Mavi",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Uni-Ball Roller Kalem Signo 207 Jel Bilye Uç Mekanik 0.7 MM Siyah UMN-207",
+    "source_id": "",
+    "code": "3720.00072",
+    "barcode": "4902778762639",
+    "producer_code": "Umn-207 Siyah",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Pensan Tükenmez Kalem Büro 1 MM Mavi 50'li 2270",
+    "source_id": "",
+    "code": "3083.12038",
+    "barcode": "8692404904439",
+    "producer_code": "Pe02270tkmavi",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Pensan Tükenmez Kalem Büro 1 MM Kırmızı 50'li 2270",
+    "source_id": "",
+    "code": "3083.1204",
+    "barcode": "8692404904422",
+    "producer_code": "Pe02270tkkırmızı",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Pensan Tükenmez Kalem Büro 1 MM Siyah 50'li 2270",
+    "source_id": "",
+    "code": "3083.12039",
+    "barcode": "8692404904446",
+    "producer_code": "Pe02270tksiyah",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Rotring Liner Keçe Uçlu Kalem 10'lu Blister Karışık Renk",
+    "source_id": "",
+    "code": "3200.31302",
+    "barcode": "3026981662201",
+    "producer_code": "2166220",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Rotring Liner Keçe Uçlu Kalem 4'lü Blister Canlı Renk",
+    "source_id": "",
+    "code": "3200.31303",
+    "barcode": "3026981663314",
+    "producer_code": "2166331",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Rotring Versatil Kalem Tikky RD 0.7 MM Beyaz 1904506",
+    "source_id": "",
+    "code": "3200.20026",
+    "barcode": "23501170903968",
+    "producer_code": "1904506",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Rotring Versatil Kalem Tikky RD 0.7 MM Bordo 1904692",
+    "source_id": "",
+    "code": "3200.20027",
+    "barcode": "3501170770474",
+    "producer_code": "1904692",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Rotring Versatil Kalem Tikky RD 0.7 MM Siyah 1904696",
+    "source_id": "",
+    "code": "3200.20036",
+    "barcode": "23501170770515",
+    "producer_code": "1904696",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Rotring Versatil Kalem Tikky RD 0.5 MM Bordo 1904691",
+    "source_id": "",
+    "code": "3200.20009",
+    "barcode": "3501170770467",
+    "producer_code": "1904691",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Rotring Versatil Kalem Tikky RD 0.5 MM Beyaz 1904698",
+    "source_id": "",
+    "code": "3200.20008",
+    "barcode": "3501170770535",
+    "producer_code": "1904698",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Rotring Versatil Kalem Tikky RD 0.5 MM Siyah 1904695",
+    "source_id": "",
+    "code": "3200.20019",
+    "barcode": "3501170770504",
+    "producer_code": "1904695",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Rotring Roller Kalem 0.7 MM Mavi 2146106",
+    "source_id": "",
+    "code": "3200.31269",
+    "barcode": "3026981461064",
+    "producer_code": "2146106",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Rotring Roller Kalem 0.7 MM Siyah",
+    "source_id": "",
+    "code": "3200.31268",
+    "barcode": "3026981461040",
+    "producer_code": "",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Rotring Sınav Seti 2B Sınav Kalemi + Silgi + Kalemtıraş Blister",
+    "source_id": "",
+    "code": "3200.31159",
+    "barcode": "8699290045925",
+    "producer_code": "Ro-2090068wk",
+    "images": []
+  },
+  {
+    "enabled": true,
     "name": "Sharpie Fine Permanent Markör Yuvarlak Uç Siyah S0810930",
     "source_id": "524954",
     "code": "3200.31566",
@@ -15,11 +231,11 @@
   },
   {
     "enabled": true,
-    "name": "Sharpie Smote Fosforlu Kalem 12'li Karışık Renk",
+    "name": "Sharpie Smote Fosforlu Kalem 12’li Karışık Renk",
     "source_id": "",
     "code": "3200.31049",
     "barcode": "3026981382338",
-    "producer_code": "",
+    "producer_code": "SMOTE-12",
     "images": [
       "https://estationery.pk/cdn/shop/files/SharpieSNoteMarkersAssorted12ColorBlisterPack.png?v=1741956955",
       "https://assets.kmart.com.au/transform/ba4dceac-d183-4b45-ad5b-a622a8f05b9b/43766468-3?io=transform%3Afit%2Cwidth%3A1800%2Cheight%3A1800&quality=90",
@@ -28,7 +244,16 @@
   },
   {
     "enabled": true,
-    "name": "Sharpie Akrilik Boya Markörü Yuvarlak Uç 5'li Doğa Tonları SH-2213",
+    "name": "Sharpie Akrilik Boya Markörü Yuvarlak Uç 12’li Doğa Tonları SH-2211",
+    "source_id": "",
+    "code": "3200.3171",
+    "barcode": "3026982134219",
+    "producer_code": "SH-2211",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Sharpie Akrilik Boya Markörü Yuvarlak Uç 5’li Doğa Tonları SH-2213",
     "source_id": "",
     "code": "3200.31709",
     "barcode": "3026982133809",
@@ -54,7 +279,7 @@
   },
   {
     "enabled": true,
-    "name": "Sharpie Metalik Markör 3'lü Karışık Renk 1986006",
+    "name": "Sharpie Metalik Markör 3’lü Karışık Renk 1986006",
     "source_id": "",
     "code": "3200.30908",
     "barcode": "3501179860060",
@@ -65,5 +290,518 @@
       "https://bizweb.dktcdn.net/100/393/583/files/but-nhu-viet-thiep-cuoi-sharpie-metallic-1-4mm-129bf13b-a1fb-4163-ad43-720e091916b1.jpg?v=1602043582286",
       "https://www.verquiperu.com/cdn/shop/files/PLUM072II_aae2eaec-9403-40d7-b009-0f5c91bed1ab_1800x1800.jpg?v=1693513562"
     ]
+  },
+  {
+    "enabled": true,
+    "name": "Sharpie Markör Permanent Fine MyStic Gems 5 Li Bls 2157670",
+    "source_id": "",
+    "code": "3200.4",
+    "barcode": "3026981576706",
+    "producer_code": "2157670",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Sharpie Fine Permanent Markör 30 Lu Labirent",
+    "source_id": "",
+    "code": "3200.40001",
+    "barcode": "3026981808364",
+    "producer_code": "",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Sharpie Fosforlu Kalem Snote Çok işlevli Kesik Uç 4 Lü Blister",
+    "source_id": "",
+    "code": "3200.40002",
+    "barcode": "3026981382345",
+    "producer_code": "",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Sharpie Fosforlu Kalem Snote Çok İşlevli Karışık 20 Li Bls",
+    "source_id": "",
+    "code": "3200.40003",
+    "barcode": "3026981391798",
+    "producer_code": "",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Sharpie gel Fashion Jel Kalem, Beyaz Gövde",
+    "source_id": "",
+    "code": "3200.40004",
+    "barcode": "3026981263460",
+    "producer_code": "",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Sharpie Jel Kalem Gel Fashion Mavi-Beyaz 2162641",
+    "source_id": "",
+    "code": "3200.40005",
+    "barcode": "3026981626418",
+    "producer_code": "2162641",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Sharpie Markör Akrilik Fırça Uç 12 Li Bls Sh-2201183",
+    "source_id": "",
+    "code": "3200.40006",
+    "barcode": "3026982011831",
+    "producer_code": "2201183",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Sharpie Markör Akrilik Fırça Uç 5 Li Bls 2201182",
+    "source_id": "",
+    "code": "3200.40007",
+    "barcode": "3026982011824",
+    "producer_code": "2201182",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Sharpie Markör Akrilik Yuvarlak Uç 12 Li Bls 2201070",
+    "source_id": "",
+    "code": "3200.40008",
+    "barcode": "3026982010704",
+    "producer_code": "2201070",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Sharpie Markör Akrilik Yuvarlak Uç 5 Li Bls 2201069",
+    "source_id": "",
+    "code": "3200.40009",
+    "barcode": "3026982010698",
+    "producer_code": "2201069",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Sharpie Markör Akrilik Yuvarlak Uç 2 Li Bls 2201181",
+    "source_id": "",
+    "code": "3200.4001",
+    "barcode": "3026982011817",
+    "producer_code": "2201181",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Sharpie Markör Permanent Fine 4 LÜ Standart Renk 1985858",
+    "source_id": "",
+    "code": "3200.40011",
+    "barcode": "3501179858586",
+    "producer_code": "1985858",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Sharpie Markör Permanent Fine Karışık Renk 12 Lİ 2065404",
+    "source_id": "",
+    "code": "3200.40012",
+    "barcode": "3026980654047",
+    "producer_code": "2065404",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Sharpie Markör Permanent Fine Yuvarlak Uçlu Şeker Pembe 1836457",
+    "source_id": "",
+    "code": "3200.40013",
+    "barcode": "8699290044560",
+    "producer_code": "1836457",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Pensan Pastel Boya Kidz 12 Renk 98060",
+    "source_id": "",
+    "code": "3083.40014",
+    "barcode": "8692404980600",
+    "producer_code": "98060",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Pensan Pastel Boya Kidz Karton 24 Renk",
+    "source_id": "",
+    "code": "3083.40015",
+    "barcode": "8692404980624",
+    "producer_code": "",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Pensan Fineliner 6 Lı Neon Pvc Kutu 6300",
+    "source_id": "",
+    "code": "3083.40016",
+    "barcode": "8692404942141",
+    "producer_code": "6300",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Pensan Fineliner 6 Lı Pastel Pvc Kutu 6200",
+    "source_id": "",
+    "code": "3083.40017",
+    "barcode": "8692404942134",
+    "producer_code": "6200",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Pensan Fineliner Keçe Uç Kalem 24 Lü Pvc Kutu 6500 HP",
+    "source_id": "",
+    "code": "3083.40018",
+    "barcode": "8692404942127",
+    "producer_code": "6500",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Pensan Kidz 12 Li Sulu Boya Pe7003sb12",
+    "source_id": "",
+    "code": "3083.40019",
+    "barcode": "8692404700307",
+    "producer_code": "7003",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Pensan Kidz Kuru Boya Kalemi 12 Renk Tam Boy",
+    "source_id": "",
+    "code": "3083.4002",
+    "barcode": "8692404563124",
+    "producer_code": "",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Pensan Kidz Kuru Boya Kalemi 24 Renk Tam Boy",
+    "source_id": "",
+    "code": "3083.40021",
+    "barcode": "8692404563247",
+    "producer_code": "",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Pensan Kidz Kuru Boya Tüplü 12 Renk Tam Boy Pe98051tüp12",
+    "source_id": "",
+    "code": "3083.40022",
+    "barcode": "8692404980518",
+    "producer_code": "98051",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Pensan Kidz Kuruboya Tüplü 24 Renk Tam Boya Kalemi Pe98052tüp24",
+    "source_id": "",
+    "code": "3083.40023",
+    "barcode": "8692404980525",
+    "producer_code": "98052",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Pensan Kidz Oyun Hamuru Büyük Boy (4*150) Gr 4 Lü",
+    "source_id": "",
+    "code": "3083.40024",
+    "barcode": "8692404100039",
+    "producer_code": "",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Pensan My-King Jel Metal Klipsli Msk 60 Lı Std 6405",
+    "source_id": "",
+    "code": "3083.40025",
+    "barcode": "8692404640764",
+    "producer_code": "6405",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Pensan Pastel Boya Kidz Pratik Kutulu 12 Renk 99967",
+    "source_id": "",
+    "code": "3083.40026",
+    "barcode": "8692404999671",
+    "producer_code": "99967",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Pensan Roller Kalem My-Sign Jel Bilye Uçlu İmza Kalemi 1.0 MM Mavi 6030",
+    "source_id": "",
+    "code": "3083.40027",
+    "barcode": "8692404212206",
+    "producer_code": "6030",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Pensan Roller Kalem My-Sign Jel Bilye Uçlu İmza Kalemi 1.0 MM Siyah 6030",
+    "source_id": "",
+    "code": "3083.40028",
+    "barcode": "8692404212213",
+    "producer_code": "6030",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Pensan Tükenmez Kalem Office Pen Mavi 1010 60'LI",
+    "source_id": "",
+    "code": "3083.40029",
+    "barcode": "8692404334731",
+    "producer_code": "1010",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Pensan Tükenmez Kalem Office Pen Siyah 1010 60'LI",
+    "source_id": "",
+    "code": "3083.4003",
+    "barcode": "8692404334748",
+    "producer_code": "1010",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Pensan Tükenmez Kalem Office Pen Kırmızı 1010 60'LI",
+    "source_id": "",
+    "code": "3083.40031",
+    "barcode": "8692404334755",
+    "producer_code": "1010",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Pensan Tükenmez Kalem Trıball 4 Lü Blister (MSK)",
+    "source_id": "",
+    "code": "3083.40032",
+    "barcode": "8692404100732",
+    "producer_code": "",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Rotring Jel Kalem Krom 600",
+    "source_id": "",
+    "code": "3200.40033",
+    "barcode": "3026981960116",
+    "producer_code": "",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Rotring Jel Kalem Siyah 600",
+    "source_id": "",
+    "code": "3200.40034",
+    "barcode": "3026981959301",
+    "producer_code": "",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Rotring Min Hi-Polymer 2B 0.5 MM S0312630",
+    "source_id": "",
+    "code": "3200.40035",
+    "barcode": "4006856505511",
+    "producer_code": "S0312630",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Rotring Min Hi-Polymer 2B 0.7 MM S0231230",
+    "source_id": "",
+    "code": "3200.40036",
+    "barcode": "4006856505719",
+    "producer_code": "S0231230",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Rotring Min Hi-Polymer HB 0.3 MM S0312410",
+    "source_id": "",
+    "code": "3200.40037",
+    "barcode": "4006856505337",
+    "producer_code": "S0312410",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Rotring Min Hi-Polymer HB 0.9 MM S0312700",
+    "source_id": "",
+    "code": "3200.40038",
+    "barcode": "4006856505931",
+    "producer_code": "S0312700",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Rotring Min Süper Polymer 2B 0.7 MM 2089895",
+    "source_id": "",
+    "code": "3200.40039",
+    "barcode": "3026980898953",
+    "producer_code": "2089895",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Rotring Jel Kalem 0.7 MM Mor 2114440",
+    "source_id": "",
+    "code": "3200.4004",
+    "barcode": "3026981144400",
+    "producer_code": "2114440",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Rotring Jel Kalem 0.7 MM Pembe 2114453",
+    "source_id": "",
+    "code": "3200.40041",
+    "barcode": "3026981144530",
+    "producer_code": "2114453",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Rotring Jel Kalem 0.7 MM Turuncu 2114452",
+    "source_id": "",
+    "code": "3200.40042",
+    "barcode": "3026981144523",
+    "producer_code": "2114452",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Rotring Jel Kalem 0.7 MM Yeşil 2114439",
+    "source_id": "",
+    "code": "3200.40043",
+    "barcode": "3026981144394",
+    "producer_code": "2114439",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Rotring Multipen Üç Fonksiyonlu Kalem Krom 600",
+    "source_id": "",
+    "code": "3200.40044",
+    "barcode": "4895151559035",
+    "producer_code": "",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Rotring Multipen Üç Fonksiyonlu Kalem Siyah 600",
+    "source_id": "",
+    "code": "3200.40045",
+    "barcode": "4895151559028",
+    "producer_code": "",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Rotring Ofis Seti Visumax + Roller Mavi",
+    "source_id": "",
+    "code": "3200.40046",
+    "barcode": "8699290046311",
+    "producer_code": "",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Rotring Ofis Seti Visumax + Roller Siyah",
+    "source_id": "",
+    "code": "3200.40047",
+    "barcode": "8699290046328",
+    "producer_code": "",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Rotring Okul Seti Versatil+Min Silgi Hediyeli 0.5 MM Bordo RO-KK07-05",
+    "source_id": "",
+    "code": "3200.40048",
+    "barcode": "9991478511543",
+    "producer_code": "RO-KK07",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Rotring Okul Seti Versatil+Min Silgi Hediyeli 0.5 MM Beyaz RO-KK07-05B",
+    "source_id": "",
+    "code": "3200.40049",
+    "barcode": "8699290042399",
+    "producer_code": "RO-KK07",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Rotring Okul Seti Versatil+Min Silgi Hediyeli 0.5 MM Kırmızı RO-KK07-05K",
+    "source_id": "",
+    "code": "3200.4005",
+    "barcode": "8699290042719",
+    "producer_code": "RO-KK07",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Rotring Okul Seti Versatil+Min Silgi Hediyeli 0.5 MM Mavi RO-KK07-05M",
+    "source_id": "",
+    "code": "3200.40051",
+    "barcode": "8699290042726",
+    "producer_code": "RO-KK07",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Rotring Okul Seti Versatil+Min Silgi Hediyeli 0.7 MM Açık Mavi RO-KK07-07AM",
+    "source_id": "",
+    "code": "3200.40052",
+    "barcode": "8699290043891",
+    "producer_code": "RO-KK07",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Rotring Okul Seti Versatil+Min Silgi Hediyeli 0.7 MM Beyaz RO-KK07-07B",
+    "source_id": "",
+    "code": "3200.40053",
+    "barcode": "8699290042405",
+    "producer_code": "RO-KK07",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Rotring Okul Seti Versatil+Min Silgi Hediyeli 0.7 MM Bordo RO-KK07-07",
+    "source_id": "",
+    "code": "3200.40054",
+    "barcode": "8699290042016",
+    "producer_code": "RO-KK07",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Rotring Okul Seti Versatil+Min Silgi Hediyeli 0.7 MM Kırmızı RO-KK07-07K",
+    "source_id": "",
+    "code": "3200.40055",
+    "barcode": "8699290042733",
+    "producer_code": "RO-KK07",
+    "images": []
+  },
+  {
+    "enabled": true,
+    "name": "Rotring Okul Seti Versatil+Min Silgi Hediyeli 0.7 MM Mavi RO-KK07-07M",
+    "source_id": "",
+    "code": "3200.40056",
+    "barcode": "8699290042740",
+    "producer_code": "RO-KK07",
+    "images": []
   }
 ]
