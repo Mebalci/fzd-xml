@@ -29,6 +29,25 @@
     <section class="panel">
       <div class="section-head">
         <div>
+          <h2>Excel ile toplu işlem</h2>
+          <p>Kayıtlı listeyi indir, Excel'de satırları düzenle veya ekle, sonra dosyayı geri yükle.</p>
+        </div>
+        <div class="bulk-actions">
+          <a class="button-link secondary" href="/api/products.xlsx">Excel'e aktar</a>
+          <select id="importMode" aria-label="Excel içe aktarma yöntemi">
+            <option value="replace">Mevcut listeyi değiştir</option>
+            <option value="append">Mevcut listeye ekle</option>
+          </select>
+          <button id="importExcel" class="secondary">Excel'den içe aktar</button>
+          <input id="excelFile" type="file" accept=".xlsx,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" hidden>
+        </div>
+      </div>
+      <p class="message">İçe aktarılan liste önce ekranda önizlenir. <strong>Değişiklikleri kaydet</strong> düğmesine basmadan ürün listesi değişmez.</p>
+    </section>
+
+    <section class="panel">
+      <div class="section-head">
+        <div>
           <h2>Kaynak XML'de ürün ara</h2>
           <p>Kod, barkod, ürün adı, marka veya kategoriyle arayabilirsin.</p>
         </div>

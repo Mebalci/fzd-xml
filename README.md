@@ -33,6 +33,17 @@ VS Code içinden `Terminal > Run Task` menüsünde şu görevler bulunur:
 5. `XML'i şimdi oluştur` ile gerçek kaynakta test et.
 6. Sonuç doğruysa `publish.ps1` dosyasını çalıştır veya VS Code görevinden GitHub'a gönder.
 
+### Excel ile toplu ürün düzenleme
+
+1. Panelde `Excel'e aktar` düğmesine bas ve kayıtlı ürün listesini indir.
+2. `Ürünler` sayfasında mevcut satırları düzenle veya yeni satırlar ekle.
+3. Sütun başlıklarını değiştirme. Barkod, ürün kodu, üretici kodu ve kaynak ID hücreleri metin olarak biçimlendirilmiştir.
+4. Dosyayı `.xlsx` biçiminde kaydet.
+5. Panelde içe aktarma yöntemini seç: mevcut listeyi değiştir veya mevcut listeye ekle.
+6. `Excel'den içe aktar` ile dosyayı seç. Hatalı ya da yinelenen eşleştirme alanı varsa liste değiştirilmez.
+7. Önizlemeyi kontrol et ve `Değişiklikleri kaydet` düğmesine bas.
+8. `XML'i şimdi oluştur` ile doğrula, ardından `publish.ps1` ile GitHub'a gönder.
+
 ## GitHub kurulumu
 
 1. GitHub'da public bir repository oluştur. Örnek ad: `fzd-xml`.

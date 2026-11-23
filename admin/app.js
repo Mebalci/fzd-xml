@@ -56,6 +56,29 @@ function syncFromForm() {
   });
 }
 
+function duplicateMessage(items) {
+  const fields = [
+    ['barcode', 'Barkod'],
+    ['producer_code', 'Üretici kodu'],
+    ['code', 'Ürün kodu'],
+    ['source_id', 'Kaynak ID'],
+  ];
+  const seen = new Map();
+  for (let index = 0; index < items.length; index += 1) {
+    if (!items[index].enabled) continue;
+    for (const [field, label] of fields) {
+      const value = String(items[index][field] || '').trim().toLocaleLowerCase('tr-TR');
+      if (!value) continue;
+      const key = `${field}:${value}`;
+      if (seen.has(key)) {
+        return `${label} iki kez kullanılmış: ${items[index][field]} (satır ${seen.get(key) + 2} ve ${index + 2})`;
+      }
+      seen.set(key, index);
+    }
+  }
+  return '';
+}
+
 async function load() {
   const state = await request('/api/state');
   products = state.products.map(blankProduct);
@@ -70,12 +93,47 @@ async function save() {
   syncFromForm();
   const invalid = products.find(p => p.enabled && !p.code && !p.barcode && !p.producer_code && !p.source_id);
   if (invalid) throw new Error('Aktif ürünlerden birinin hiçbir eşleştirme alanı dolu değil.');
+  const duplicate = duplicateMessage(products);
+  if (duplicate) throw new Error(duplicate);
   const result = await request('/api/products', {
     method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({products})
   });
   $('#output').textContent = `${result.count} ürün kaydedildi.`;
   renderProducts();
 }
+
+$('#importExcel').addEventListener('click', () => $('#excelFile').click());
+$('#excelFile').addEventListener('change', async event => {
+  const file = event.target.files[0];
+  event.target.value = '';
+  if (!file) return;
+  $('#output').textContent = 'Excel dosyası kontrol ediliyor...';
+  try {
+    const response = await fetch('/api/import-xlsx', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'},
+      body: await file.arrayBuffer(),
+    });
+    const result = await response.json();
+    if (!response.ok) throw new Error(result.error || `HTTP ${response.status}`);
+    syncFromForm();
+    const mode = $('#importMode').value;
+    const nextProducts = mode === 'append'
+      ? [...products, ...result.products.map(blankProduct)]
+      : result.products.map(blankProduct);
+    const duplicate = duplicateMessage(nextProducts);
+    if (duplicate) throw new Error(duplicate);
+    if (mode === 'replace' && !window.confirm(`${result.count} ürün içe aktarılacak ve ekrandaki liste değiştirilecek. Devam edilsin mi?`)) {
+      $('#output').textContent = 'İçe aktarma iptal edildi.';
+      return;
+    }
+    products = nextProducts;
+    renderProducts();
+    $('#output').textContent = `${result.count} ürün Excel'den önizlemeye alındı. Kalıcı yapmak için Değişiklikleri kaydet düğmesine bas.`;
+  } catch (error) {
+    $('#output').textContent = `HATA: ${error.message} Mevcut liste değiştirilmedi.`;
+  }
+});
 
 $('#products').addEventListener('click', event => {
   const index = event.target.dataset.remove;
