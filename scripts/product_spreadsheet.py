@@ -22,6 +22,7 @@ BASE_COLUMNS = (
     ("source_id", "Kaynak ID"),
 )
 IDENTIFIER_FIELDS = ("barcode", "producer_code", "code", "source_id")
+UNIQUE_IDENTIFIER_FIELDS = ("barcode", "code", "source_id")
 
 
 def _column_name(index: int) -> str:
@@ -95,7 +96,7 @@ def validate_products(products: list[dict[str, Any]], max_images: int = 16) -> l
                 "veya kaynak ID alanlarından en az biri dolu olmalı."
             )
         if product["enabled"]:
-            for field in IDENTIFIER_FIELDS:
+            for field in UNIQUE_IDENTIFIER_FIELDS:
                 value = product[field].casefold()
                 if not value:
                     continue
