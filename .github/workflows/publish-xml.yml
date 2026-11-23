@@ -1,0 +1,52 @@
+name: XML'i güncelle ve yayınla
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */6 * * *"
+  push:
+    branches: [main]
+    paths:
+      - "config/**"
+      - "scripts/**"
+      - "docs/index.html"
+      - ".github/workflows/publish-xml.yml"
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Kaynak kodu al
+        uses: actions/checkout@v4
+
+      - name: Python kur
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Filtrelenmiş XML'i oluştur
+        run: python scripts/build_filtered_xml.py
+
+      - name: GitHub Pages'i yapılandır
+        uses: actions/configure-pages@v5
+
+      - name: Yayın paketini hazırla
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+      - name: GitHub Pages'e yayınla
+        id: deployment
+        uses: actions/deploy-pages@v4

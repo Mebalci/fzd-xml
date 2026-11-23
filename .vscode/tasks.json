@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "FZD: Yönetim panelini aç",
+      "type": "shell",
+      "command": "python scripts/admin_server.py",
+      "problemMatcher": [],
+      "isBackground": true
+    },
+    {
+      "label": "FZD: XML'i yerelde oluştur",
+      "type": "shell",
+      "command": "python scripts/build_filtered_xml.py",
+      "problemMatcher": []
+    },
+    {
+      "label": "FZD: Testleri çalıştır",
+      "type": "shell",
+      "command": "python -m unittest discover -s tests -v",
+      "problemMatcher": []
+    },
+    {
+      "label": "FZD: GitHub'a gönder",
+      "type": "shell",
+      "command": "powershell -ExecutionPolicy Bypass -File publish.ps1",
+      "problemMatcher": []
+    }
+  ]
+}

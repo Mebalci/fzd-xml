@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FZD XML Ürün Yönetimi</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div>
+      <p class="eyebrow">FZD Alışveriş</p>
+      <h1>XML Ürün Yönetimi</h1>
+      <p>Yalnızca bu listedeki ürünler Qukasoft XML kaynağına gönderilir.</p>
+    </div>
+    <div class="header-actions">
+      <button id="save" class="secondary">Değişiklikleri kaydet</button>
+      <button id="build">XML'i şimdi oluştur</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="status-card">
+      <div><span>Aktif ürün</span><strong id="activeCount">–</strong></div>
+      <div><span>Son üretim</span><strong id="lastBuild">Henüz yok</strong></div>
+      <div><span>Sonuç</span><strong id="buildStatus">–</strong></div>
+    </section>
+
+    <section class="panel">
+      <div class="section-head">
+        <div>
+          <h2>Kaynak XML'de ürün ara</h2>
+          <p>Kod, barkod, ürün adı, marka veya kategoriyle arayabilirsin.</p>
+        </div>
+        <div class="search-row">
+          <input id="searchInput" placeholder="Örn. Sharpie, 3200.31566 veya barkod">
+          <button id="search">Ara</button>
+        </div>
+      </div>
+      <div id="searchMessage" class="message"></div>
+      <div id="searchResults" class="results"></div>
+    </section>
+
+    <section class="panel">
+      <div class="section-head">
+        <div>
+          <h2>Aktarılacak ürünler</h2>
+          <p>Bir ürünün en az bir eşleştirme alanı dolu olmalı. Barkod en güvenilir alandır.</p>
+        </div>
+        <button id="addBlank" class="secondary">Boş ürün ekle</button>
+      </div>
+      <div id="products" class="product-list"></div>
+    </section>
+
+    <section class="panel output-panel">
+      <h2>İşlem çıktısı</h2>
+      <pre id="output">Hazır.</pre>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

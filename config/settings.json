@@ -1,0 +1,12 @@
+{
+  "source_url": "https://www.kirtasiyem.com.tr/content/xml/urunler.xml",
+  "output_file": "docs/urunler.xml",
+  "status_file": "docs/status.json",
+  "request_timeout_seconds": 120,
+  "request_retries": 3,
+  "fail_on_missing_products": true,
+  "preserve_non_product_nodes": true,
+  "product_tag": "Urun",
+  "image_tag_prefix": "RESIM",
+  "max_images": 16
+}

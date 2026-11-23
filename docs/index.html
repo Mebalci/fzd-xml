@@ -1,0 +1,6 @@
+<!doctype html>
+<html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FZD XML Durumu</title><style>
+body{font-family:Arial,sans-serif;max-width:760px;margin:60px auto;padding:0 20px;color:#172033}a{color:#1268d3}.card{border:1px solid #dce2ec;border-radius:12px;padding:24px}pre{background:#f4f6fa;padding:14px;border-radius:8px;overflow:auto}
+</style></head><body><div class="card"><h1>FZD Filtrelenmiş Ürün XML'i</h1><p><a href="urunler.xml">urunler.xml dosyasını aç</a></p><pre id="status">Durum yükleniyor...</pre></div>
+<script>fetch('status.json').then(r=>r.json()).then(s=>document.querySelector('#status').textContent=JSON.stringify(s,null,2)).catch(()=>document.querySelector('#status').textContent='Henüz XML üretilmedi.');</script></body></html>

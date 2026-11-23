@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.DS_Store
+docs/urunler.xml
+docs/status.json
+docs/test-urunler.xml
