@@ -73,6 +73,7 @@ def validate_products(products: list[dict[str, Any]], max_images: int = 16) -> l
 
     cleaned: list[dict[str, Any]] = []
     seen: dict[tuple[str, str], int] = {}
+    producer_code_rows: dict[str, list[tuple[int, dict[str, Any]]]] = {}
     labels = dict(BASE_COLUMNS)
     for row_number, item in enumerate(products, start=2):
         if not isinstance(item, dict):
@@ -107,7 +108,25 @@ def validate_products(products: list[dict[str, Any]], max_images: int = 16) -> l
                         f"aynı değer {seen[key]}. satırda da var: {product[field]}"
                     )
                 seen[key] = row_number
+            producer_code = product["producer_code"].casefold()
+            if producer_code:
+                producer_code_rows.setdefault(producer_code, []).append((row_number, product))
         cleaned.append(product)
+
+    for rows in producer_code_rows.values():
+        if len(rows) < 2:
+            continue
+        ambiguous = [
+            row_number
+            for row_number, product in rows
+            if not any(product[field] for field in UNIQUE_IDENTIFIER_FIELDS)
+        ]
+        if ambiguous:
+            producer_code = rows[0][1]["producer_code"]
+            raise ValueError(
+                f"Üretici Kodu {producer_code} birden fazla üründe kullanılmış. "
+                f"{ambiguous[0]}. satıra benzersiz barkod, ürün kodu veya kaynak ID ekleyin."
+            )
     return cleaned
 
 

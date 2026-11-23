@@ -59,7 +59,6 @@ function syncFromForm() {
 function duplicateMessage(items) {
   const fields = [
     ['barcode', 'Barkod'],
-    ['producer_code', 'Üretici kodu'],
     ['code', 'Ürün kodu'],
     ['source_id', 'Kaynak ID'],
   ];
@@ -74,6 +73,22 @@ function duplicateMessage(items) {
         return `${label} iki kez kullanılmış: ${items[index][field]} (satır ${seen.get(key) + 2} ve ${index + 2})`;
       }
       seen.set(key, index);
+    }
+  }
+  const producerCodes = new Map();
+  for (let index = 0; index < items.length; index += 1) {
+    const product = items[index];
+    if (!product.enabled || !product.producer_code) continue;
+    const key = String(product.producer_code).trim().toLocaleLowerCase('tr-TR');
+    const rows = producerCodes.get(key) || [];
+    rows.push(index);
+    producerCodes.set(key, rows);
+  }
+  for (const rows of producerCodes.values()) {
+    if (rows.length < 2) continue;
+    const ambiguous = rows.find(index => !items[index].barcode && !items[index].code && !items[index].source_id);
+    if (ambiguous !== undefined) {
+      return `Üretici kodu birden fazla üründe kullanılmış. Satır ${ambiguous + 2} için barkod, ürün kodu veya kaynak ID gir.`;
     }
   }
   return '';

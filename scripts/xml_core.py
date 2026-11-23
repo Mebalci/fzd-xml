@@ -25,6 +25,7 @@ IDENTIFIER_TAGS = {
     ),
     "producer_code": ("PRODUCERCODE", "URETICIKODU", "MODEL_KODU"),
 }
+MATCH_PRIORITY = ("barcode", "code", "source_id", "producer_code")
 
 
 def local_name(tag: str) -> str:
@@ -69,13 +70,15 @@ def product_summary(product: ET.Element) -> dict[str, str]:
 
 def matches(product: ET.Element, rule: dict[str, Any]) -> bool:
     values = node_texts(product)
-    for field, tags in IDENTIFIER_TAGS.items():
+    for field in MATCH_PRIORITY:
         expected = normalized(rule.get(field))
         if not expected:
             continue
+        tags = IDENTIFIER_TAGS[field]
         for tag in tags:
             if expected in values.get(tag.upper(), set()):
                 return True
+        return False
     return False
 
 
