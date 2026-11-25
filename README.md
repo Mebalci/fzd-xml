@@ -1,29 +1,5 @@
 # FZD seçili ürün XML servisi
 
-Bu proje Kadıoğlu XML kaynağından yalnızca seçilen ürünleri çıkarır ve Qukasoft'un okuyabileceği yeni bir XML adresi oluşturur. GitHub Actions işlemi 6 saatte bir çalıştırır; GitHub Pages XML'i sürekli erişilebilir tutar.
-
-## Hazır gelen ürünler
-
-- 3200.31566
-- 3200.31049
-- 3200.31710
-- 3200.31709
-- 3200.31623
-- 3200.30908
-
-## Bilgisayarda çalıştırma
-
-Python 3.10 veya üzeri yeterlidir. Ek paket kurulmaz.
-
-Windows'ta `start-panel.bat` dosyasına çift tıkla. Panel açılmazsa tarayıcıda `http://127.0.0.1:8765` adresine git.
-
-VS Code içinden `Terminal > Run Task` menüsünde şu görevler bulunur:
-
-- `FZD: Yönetim panelini aç`
-- `FZD: XML'i yerelde oluştur`
-- `FZD: Testleri çalıştır`
-- `FZD: GitHub'a gönder`
-
 ## Panel kullanımı
 
 1. Kaynak XML'de ürün kodu, barkod, marka veya ürün adıyla ara.
@@ -68,19 +44,6 @@ Yayın adresi genellikle şöyledir:
 ```text
 https://KULLANICI_ADI.github.io/fzd-xml/urunler.xml
 ```
-
-Bu adresi Qukasoft'ta yeni ve ayrı bir XML kaynağı olarak kullan.
-
-## Qukasoft ayarı
-
-- Eski Kadıoğlu XML kaynağının adresini değiştirme.
-- Yeni bir XML kaynağı oluştur.
-- Yeni kaynakta `urunler.xml` adresini kullan.
-- İlk testte zamanlamayı `Hiçbir Zaman` bırak.
-- Kaynak etiketlerini eşleştir ve yalnızca bir kez `Ürünleri Aktar` çalıştır.
-- Sonuçta tam 6 ürün bulunduğunu işlem logundan doğrula.
-- Doğruladıktan sonra 6 saatlik veya günlük zamanlamayı aç.
-
 ## Hata güvenliği
 
 - Seçili ürünlerden biri kaynakta bulunamazsa işlem hata verir ve eksik XML yayımlanmaz.
