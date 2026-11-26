@@ -5888,16 +5888,7 @@
     "barcode": "8682692708864",
     "producer_code": "Bt-01033",
     "images": []
-  },
-  {
-    "enabled": true,
-    "name": "Boss Tape Yeni Sarı Nano Bant Magic Tape (Blister) Bt-01034",
-    "source_id": "591039",
-    "code": "9560.00150",
-    "barcode": "8682692708857",
-    "producer_code": "Bt-01034",
-    "images": []
-  },
+  },  
   {
     "enabled": true,
     "name": "Boss Tape Yeni Topuk Yaması Siyah Bt-07005",
@@ -11405,16 +11396,7 @@
     "barcode": "8697459080077",
     "producer_code": "Vt107",
     "images": []
-  },
-  {
-    "enabled": true,
-    "name": "Vege Çift Taraflı Bant Askılı 12x25 Mt",
-    "source_id": "62707",
-    "code": "3840.00007",
-    "barcode": "8690461012289",
-    "producer_code": "Vege Çft 12",
-    "images": []
-  },
+  }, 
   {
     "enabled": true,
     "name": "Vege Çift Taraflı Bant Askılı 18x25 Mt",
@@ -11441,16 +11423,7 @@
     "barcode": "8690461036254",
     "producer_code": "Vege Çft 36",
     "images": []
-  },
-  {
-    "enabled": true,
-    "name": "Vege Çift Taraflı Bant Askılı 48x25 Mt",
-    "source_id": "421467",
-    "code": "3840.00024",
-    "barcode": "8690461048257",
-    "producer_code": "Vege Çft 48",
-    "images": []
-  },
+  },  
   {
     "enabled": true,
     "name": "Vege Çift Taraflı Köpük Bant 19 MM x 1,5 Mt (1)",
